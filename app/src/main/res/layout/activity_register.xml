@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join the community safety network"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            android:layout_marginBottom="32dp" />
+
+        <EditText
+            android:id="@+id/etRegName"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Full Name *"
+            android:textColorHint="#555555"
+            android:textColor="#FFFFFF"
+            android:inputType="textPersonName"
+            android:background="@drawable/edit_text_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etRegPhone"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Phone Number"
+            android:textColorHint="#555555"
+            android:textColor="#FFFFFF"
+            android:inputType="phone"
+            android:background="@drawable/edit_text_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etRegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Email Address *"
+            android:textColorHint="#555555"
+            android:textColor="#FFFFFF"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etRegPassword"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Password (min 6 chars) *"
+            android:textColorHint="#555555"
+            android:textColor="#FFFFFF"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="CREATE ACCOUNT"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#EF4444"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvBackToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Sign In"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>

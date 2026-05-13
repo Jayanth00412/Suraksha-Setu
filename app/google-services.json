@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338139301034",
+    "project_id": "suraksha-setu-33beb",
+    "storage_bucket": "suraksha-setu-33beb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338139301034:android:a1f909266b6dea43317cd3",
+        "android_client_info": {
+          "package_name": "com.suraksha.setu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338139301034-cm6n07vlqbl7p2ujkmfbirqtjeleeh34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOFbs4chITMA9SOnJQctMf0zqam_bn2OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338139301034-cm6n07vlqbl7p2ujkmfbirqtjeleeh34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
