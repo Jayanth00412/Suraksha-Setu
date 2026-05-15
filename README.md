@@ -130,10 +130,3 @@ This application can be useful for:
 * Night travel safety
 * Community emergency response systems
   
-# Developed By
-
-Jayanth Kumar N
-
-# License
-
-This project is developed for educational and academic purposes.
